@@ -4,10 +4,12 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
-    "@kishangupta/medium-common": "^1.0.1",
+    "@kishangupta8897/medium-common": "^1.0.0",
     "@prisma/client": "^5.14.0",
     "@prisma/extension-accelerate": "^1.0.0",
     "hono": "^4.3.7",
+    "i": "^0.3.7",
+    "npm": "^10.8.1",
     "prisma": "^5.14.0"
   },
   "devDependencies": {
