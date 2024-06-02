@@ -2,7 +2,6 @@ import {ChangeEvent, useState} from 'react';
 import { Appbar } from "../components/Appbar";
 import { BACKEND_URL } from '../config';
 import axios from 'axios';
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function TextEditor({onChange}: {onChange: (e: ChangeEvent<HTMLTextAreaElement>) => void}) {
